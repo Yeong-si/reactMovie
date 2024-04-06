@@ -20,7 +20,7 @@ function Home(){
       <div>
         {loading ? (<strong>Loading...</strong>):(
         <div>
-          {movies.map((movie)=> {return (
+          {movies.map((movie)=>  (
             <Movie
             key={movie.id}
             id={movie.id}
@@ -29,7 +29,7 @@ function Home(){
             summary={movie.summary}
             genres={movie.genres}
             />
-          )}
+          )
           )}
           </div>)}
        </div>

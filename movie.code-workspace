@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "NomadMovie",
+			"path": "public/NomadMovie"
+		}
+	],
+	"settings": {}
+}
